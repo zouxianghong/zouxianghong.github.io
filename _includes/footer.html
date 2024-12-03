@@ -1,10 +1,16 @@
-<div class="footer">
-	<div class="row">
-	<div class="col-sm-8">
-	<p><small>&copy; Xianghong Zou 2023</small></p>
-	</div>
-	<div class="col-sm-4">
-	<p class="pull-right"><small>Thanks to <a href="http://github.com/jmcglone/jmcglone.github.io" > JMCGLONE </a>for the website template.</a></small></p>
-	</div>
-	</div>
-</div> 
+<footer class="footer">
+    <div class="container">
+        <div class="row my-3">
+            <div class="col-6">
+                <div class="text-muted">
+                    <i>Last updated: {{ "now" | date: "%b %Y" }}</i>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="text-right text-muted">
+                    {{ site.data.display.footer_text }}
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

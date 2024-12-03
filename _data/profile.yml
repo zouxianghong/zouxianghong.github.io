@@ -1,0 +1,65 @@
+primary_name: "Xianghong Zou"
+secondary_name: ""
+navbar_name: "Xianghong Zou"
+
+positions:
+  - '<span class="no-break"><img src="assets/images/badges/WHU.png" alt="Wuhan University" class="inline-badge"/></span> Ph.D. Wuhan University (2023-Now)'
+
+email: "ericxhzou@whu.edu.cn"
+# cv_link: link-to-your-cv-file
+gscholar: vTQOkJwAAAAJ
+github: zouxianghong
+
+short_bio: >-
+  <p>
+    I am currently a third-year PhD student in <a href="http://www.lmars.whu.edu.cn/en/">LIESMARS</a>, <a href="https://en.whu.edu.cn/">Wuhan University</a>
+    supervised by Prof. <a href="http://3s.whu.edu.cn/ybs/index.htm">Bisheng Yang</a>.
+    Previously, I obtained my B.Eng degree at <a href="http://main.sgg.whu.edu.cn/">SGG</a> of Wuhan University. My research interest lies in the field of 3D Computer Vision, particularly including point cloud localization and 3D change detection.
+    If you are interested in my research, feel free to contact me at <a href="mailto:ericxhzou@whu.edu.cn">ericxhzou@whu.edu.cn</a>!
+  </p>
+
+show_portrait: true
+portrait_url: assets/images/photos/ericxhzou.jpg
+
+education:
+- name: LIESMARS, Wuhan University
+  logo: assets/images/badges/WHU.png
+  position: Ph.D. in Photogrammetry and Remote Sensing
+  date: Sep. 2021 - Now
+
+- name: LIESMARS, Wuhan University
+  logo: assets/images/badges/WHU.png
+  position: Research Assistant
+  date: Sep. 2020 - Aug. 2021
+
+- name: CSIG, Tencent (Bei jing)
+  logo: assets/images/badges/Tencent.jpg
+  position: Research and Development Engineer
+  date: Aug. 2019 - Aug. 2020
+
+- name: LIESMARS, Wuhan University
+  logo: assets/images/badges/WHU.png
+  position: M.S. in Photogrammetry and Remote Sensing
+  date: Sep. 2016 - Jul. 2019
+
+- name: SGG, Wuhan University
+  logo: assets/images/badges/WHU.png
+  position: B.S. in Surveying and Mapping Engineering
+  date: Sep. 2012 - Jul. 2016
+
+awards:
+- name: Second Prize for Geographic Information Technology Progress of China Association for Geospatial Industry and Sciences (Rank 4/12)
+  date: 2023
+- name: Second Prize in Surveying and Mapping of the Chinese Society for Geodesy (Rank 4/10)
+  date: 2023
+- name: Second Prize in Surveying and Mapping of the Chinese Society for Geodesy (Rank 7/10)
+  date: 2022
+- name: LIESMARS Graduate Science and Technology Innovation Award
+  date: 2018
+- name: LIESMARS Graduate Science and Technology Innovation Award
+  date: 2016
+
+# Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
+# if you keep the link to the template so that more people can benefit from it. Thanks!
+footer_text: >-
+  Thank <a href="https://luost.me/">Shitong Luo</a> for this wonderful <a href="https://github.com/luost26/academic-homepage" target="_blank"><i class="fas fa-pencil-ruler"></i> academic-homepage-templet</a>.

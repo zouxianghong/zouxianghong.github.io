@@ -1,62 +1,37 @@
 ---
 layout: default
-title: Xianghoong Zou(邹响红)
-cv: passive
-notes: passive
-contact: passive
-description: 
+title : Homepage
+navbar_title: Home
 ---
+{% include widgets/profile_card.html %}
 
-<div class="row marketing">
-	<div class="intro">
-		<div class="col-sm-4">
-			<img  class="img-circle avatar" alt="Xianghoong Zou" src="img/ericxhzou.jpg">
-			<a href="https://scholar.google.com.hk/citations?user=vTQOkJwAAAAJ&hl=zh-CN">Google Scholar</a>
-			/ <a href="https://github.com/zouxianghong">GitHub</a>
-		</div>
-		<div itemscope itemtype="http://data-vocabulary.org/Person" class="col-sm-8">
-			<p class="lead">Xianghoong Zou(邹响红)</p>
-			<div style="text-align:justify; line-height:25px;">
-				I am currently a third-year PhD student in <a href="http://www.lmars.whu.edu.cn/en/">LIESMARS</a>, <a href="https://en.whu.edu.cn/">Wuhan University</a>
-				supervised by Prof. <a href="http://3s.whu.edu.cn/ybs/index.htm">Bisheng Yang</a>.
-				Previously, I obtained my B.Eng degree at <a href="http://main.sgg.whu.edu.cn/">SGG</a> of Wuhan University. My research interest lies in the field of 3D Computer Vision, particularly including point cloud localization and 3D change detection.
-				If you are interested in my research, feel free to contact me at <a href="mailto:ericxhzou@whu.edu.cn">ericxhzou@whu.edu.cn</a>!<br>
-			</div>
-		</div>
-	</div>
+{% include widgets/url_debug_message.html %}
 
+{% if site.data.display.homepage.show_experience %}
+{% include widgets/experience_card.html %}
+{% endif %}
 
-	<p class="lead" style="border-bottom:1px solid #CCC">Recent News</p>
-	<ul>
-		<li style = "margin:10px">2023-11-18: Our paper <a href="https://www.sciencedirect.com/science/article/pii/S0924271623003106">PatchAugNet</a> is accepted and online in ISPRS Journal</li>
-	</ul>
+{% if site.data.display.homepage.show_news %}
+{% assign count_news = site.news | size %}
+{% if count_news > 0 %}
+{% include widgets/news_card.html %}
+{% endif %}
+{% endif %}
 
-	<p class="lead" style="border-bottom:1px solid #CCC">Publications</p>
-	* denotes equal contributions and &dagger; denotes the corresponding author.<br><br>
+{% if site.data.display.homepage.show_selected_publications %}
+{% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
+{% 
+    include widgets/publication_card.html 
+    publications=pubs
+    title='<i class="fas fa-star"></i> Selected Publications'
+%}
+{% endif %}
 
-		<div class="before-item">
-			<div class="pubimg">
-				<img class="pubpic" src="img/PatchAugNet.gif">
-			</div>
-			<div class="pubdsp">
-				<span class=pubtitle>
-					PatchAugNet: Patch feature augmentation-based heterogeneous point cloud place recognition in large-scale street scenes<br>
-				</span>
-				<span class=pubauthor>
-					<b>Xianghong Zou</b>, Jianping Li<sup>&dagger;</sup>, Yuan Wang, Fuxun Liang, Weitong Wu, Haiping Wang, Bisheng Yang<sup>&dagger;</sup>, Zhen Dong<br>
-				</span>
-				<span class=publoc>
-					ISPRS J (IF: 12.7)<br>
-				</span>
-				<span class=publink>
-					[<a href="https://www.sciencedirect.com/science/article/pii/S0924271623003106">Paper</a>]
-					[<a href="https://github.com/WHU-USI3DV/PatchAugNet">Code</a>]
-				<br></span>
-			</div>
-		</div>
-
-	<p class="lead" style="border-bottom:1px solid #CCC">Review Services</p>
-	
-	[<a href="IEEE Robotics and Automation Letters (RAL), IEEE International Conference on Robotics and Automation (ICRA)">TODO</a>]<br>
-	
-</div>
+{% if site.data.display.homepage.show_projects %}
+{% assign pubs = site.projects | sort: "date" | reverse | where: "selected", true %}
+{% 
+    include widgets/projects_card.html 
+    projects=pubs
+    title='<i class="fas fa-star"></i> Selected Projects'
+%}
+{% endif %}
