@@ -1,6 +1,6 @@
 ---
 title:          'PatchAugNet: Patch feature augmentation-based heterogeneous point cloud place recognition in large-scale street scenes'
-date:           2022-11-11 00:01:00 +0800
+date:           2023-11-11 00:01:00 +0800
 selected:       true
 pub:            "ISPRS Journal of Photogrammetry and Remote Sensing (IF: 12.7)"
 pub_date:       "2023"
