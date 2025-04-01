@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Xianghong Zou"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/NCU.png" alt="Nanchang University" class="inline-badge"/></span> Postdoc. Nanchang University (2025-Now)'
+  - '<span class="no-break"><img src="assets/images/badges/NCU.png" alt="Nanchang University" class="inline-badge"/></span> Postdoc, Nanchang University (2025-Now)'
 
 email: "ericxhzou@ncu.edu.cn"
 # cv_link: link-to-your-cv-file
@@ -22,6 +22,11 @@ show_portrait: true
 portrait_url: assets/images/photos/ericxhzou.jpg
 
 education:
+- name: Nanchang University
+  logo: assets/images/badges/NCU.png
+  position: Postdoctoral Researcher
+  date: Jan. 2025 - Now
+
 - name: LIESMARS, Wuhan University
   logo: assets/images/badges/WHU.png
   position: Ph.D. in Photogrammetry and Remote Sensing
