@@ -3,18 +3,18 @@ secondary_name: ""
 navbar_name: "Xianghong Zou"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/WHU.png" alt="Wuhan University" class="inline-badge"/></span> Ph.D. Wuhan University (2023-Now)'
+  - '<span class="no-break"><img src="assets/images/badges/NCU.png" alt="Nanchang University" class="inline-badge"/></span> Postdoc. Nanchang University (2025-Now)'
 
-email: "ericxhzou@whu.edu.cn"
+email: "ericxhzou@ncu.edu.cn"
 # cv_link: link-to-your-cv-file
 gscholar: vTQOkJwAAAAJ
 github: zouxianghong
 
 short_bio: >-
   <p>
-    I am currently a third-year PhD student in <a href="http://www.lmars.whu.edu.cn/en/">LIESMARS</a>, <a href="https://en.whu.edu.cn/">Wuhan University</a>
-    supervised by Prof. <a href="http://3s.whu.edu.cn/ybs/index.htm">Bisheng Yang</a>.
-    Previously, I obtained my B.Eng degree at <a href="http://main.sgg.whu.edu.cn/">SGG</a> of Wuhan University. My research interest lies in the field of 3D Computer Vision, particularly including point cloud localization and 3D change detection.
+    I am currently a postdoctoral researcher in <a href="https://english.ncu.edu.cn/">Nanchang University</a>
+    work with Prof. <a href="http://3s.whu.edu.cn/ybs/index.htm">Qiegen Liu</a>.
+    Previously, I obtained my B.Eng degree at <a href="http://main.sgg.whu.edu.cn/">SGG</a> of Wuhan University, and obtained my PhD degree at <a href="http://www.lmars.whu.edu.cn/en/">LIESMARS</a> of Wuhan University. My research interest lies in the field of 3D Computer Vision, particularly including point cloud localization and 3D change detection.
     If you are interested in my research, feel free to contact me at <a href="mailto:ericxhzou@whu.edu.cn">ericxhzou@whu.edu.cn</a>!
   </p>
 
@@ -25,7 +25,7 @@ education:
 - name: LIESMARS, Wuhan University
   logo: assets/images/badges/WHU.png
   position: Ph.D. in Photogrammetry and Remote Sensing
-  date: Sep. 2021 - Now
+  date: Sep. 2021 - Dec. 2024
 
 - name: LIESMARS, Wuhan University
   logo: assets/images/badges/WHU.png
