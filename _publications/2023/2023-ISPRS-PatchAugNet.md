@@ -19,6 +19,7 @@ authors:
   - Zhen Dong
 
 links:
+  Project: https://whu-usi3dv.github.io/PatchAugNet
   Paper: https://www.sciencedirect.com/science/article/pii/S0924271623003106
   Code: https://github.com/WHU-USI3DV/PatchAugNet
 ---
