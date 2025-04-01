@@ -20,5 +20,5 @@ authors:
   - Zhen Dong
 
 links:
-  Paper: [https://www.sciencedirect.com/science/article/pii/S0924271623003106](https://www.sciencedirect.com/science/article/pii/S0924271623002599)
+  Paper: https://www.sciencedirect.com/science/article/pii/S0924271623002599
 ---
