@@ -18,6 +18,6 @@ authors:
 
 links:
   Project: https://zouxianghong.github.io/Reliable-loc
-  Papar: https://arxiv.org/abs/2411.07815
+  Papar: https://www.sciencedirect.com/science/article/pii/S0924271625001340
   Code: https://github.com/zouxianghong/Reliable-loc
 ---
