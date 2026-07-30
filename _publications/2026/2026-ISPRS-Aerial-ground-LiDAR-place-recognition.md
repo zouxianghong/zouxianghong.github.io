@@ -18,7 +18,7 @@ authors:
   - Naser El-Sheimy
 
 links:
-  Project: [None](https://)
-  Papar: [https://arxiv.org/abs/2606.18583](https://arxiv.org/abs/2606.18583)
-  Code: [None](https://)
+  Project: https://xxx
+  Papar: https://arxiv.org/abs/2606.18583
+  Code: https://xxx
 ---
