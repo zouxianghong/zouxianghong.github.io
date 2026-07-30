@@ -19,6 +19,6 @@ authors:
 
 links:
   Project: https://zouxianghong.github.io/WHU-PCPR
-  Papar: https:xxx
+  Papar: https://arxiv.org/abs/2601.06442
   Code: https://github.com/zouxianghong/WHU-PCPR
 ---
